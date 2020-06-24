@@ -393,6 +393,12 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+
+.skills .icon {
+  height: 40px;
+  width: 40px
+}
+
 .skills .progress {
   height: 50px;
   display: block;
@@ -608,7 +614,7 @@ section {
 
 .services .icon i {
   color: #fff;
-  font-size: 44px;
+  font-size: 24px;
 }
 
 .services .icon-box:hover .icon {
