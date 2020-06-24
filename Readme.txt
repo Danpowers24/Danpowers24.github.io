@@ -1,6 +1,9 @@
-Thanks for downloading this template!
+### Hello! #
 
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Thanks for taking interest in viewing my portfolio! You can view it [here](https://danpowers24.github.io/).
+
+### Additional Links to project repos: #
+[Capstone project: MESA](https://github.com/Danpowers24/Capstone-client)
+[Full-stack project: PathWell](https://github.com/Danpowers24/PathWell-client)
+[Group project: EventLite](https://github.com/FBRD2/hangout-client)
+[First front-end project: Tic Tac Toe](https://github.com/Danpowers24/tictactoeDP)
