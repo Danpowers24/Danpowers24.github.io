@@ -7,3 +7,5 @@ Thanks for taking interest in viewing my portfolio! You can view it [here](https
 [Full-stack project: PathWell](https://github.com/Danpowers24/PathWell-client)
 [Group project: EventLite](https://github.com/FBRD2/hangout-client)
 [First front-end project: Tic Tac Toe](https://github.com/Danpowers24/tictactoeDP)
+
+in root folder
