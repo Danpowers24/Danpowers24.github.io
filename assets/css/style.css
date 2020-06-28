@@ -434,6 +434,12 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
+.bxs-file-pdf {
+  max-height: 15px;
+  max-width: 15px;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
