@@ -501,6 +501,12 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.portfolio-description {
+  height: 25px;
+  width: 25px;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
