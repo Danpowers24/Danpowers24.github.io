@@ -436,8 +436,17 @@ section {
 --------------------------------------------------------------*/
 
 .bxs-file-pdf {
-  max-height: 15px;
+  max-height: 55px;
   max-width: 15px;
+}
+
+#resume-hover {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+#resume-hover:hover {
+  opacity: 1;
 }
 
 .resume .resume-title {
