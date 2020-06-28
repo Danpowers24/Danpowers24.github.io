@@ -436,7 +436,7 @@ section {
 --------------------------------------------------------------*/
 
 .bxs-file-pdf {
-  max-height: 55px;
+  max-height: 15px;
   max-width: 15px;
 }
 
@@ -510,11 +510,6 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-
-.portfolio-description {
-  height: 25px;
-  width: 25px;
-}
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
