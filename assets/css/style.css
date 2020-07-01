@@ -435,7 +435,7 @@ section {
 # Resume
 --------------------------------------------------------------*/
 
-.bxs-file-pdf {
+#pdf-download-box {
   max-height: 15px;
   max-width: 15px;
 }
@@ -445,7 +445,7 @@ section {
   transition: all 0.5s;
 }
 
-#resume-hover:hover + .bxs-file-pdf{
+#resume-hover:hover + #pdf-download-box{
   opacity: 1;
 }
 
