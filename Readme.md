@@ -1,6 +1,5 @@
-# Hello and welcome! #
 
-Thanks for taking interest in viewing my [portfolio](https://danpowers24.github.io/)!
+# [Click here to view my portfolio!](https://danpowers24.github.io/) #
 
 #### Additional Links to project repos: #
 - [Capstone project: MESA](https://github.com/Danpowers24/Capstone-client)
