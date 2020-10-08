@@ -122,6 +122,11 @@
       itemSelector: '.portfolio-item',
       layoutMode: 'fitRows'
     });
+    
+    $('.portoflio-wrap').hover(
+      function() { $(this).children("portfolio-description").show()},
+      function() { $(this).children("portfolio-description").hide()}
+    )
 
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
