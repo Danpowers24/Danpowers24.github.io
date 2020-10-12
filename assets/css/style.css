@@ -959,6 +959,53 @@ section {
   }
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.map {
+  width: 600px;
+  height: 450px;
+}
+
+@media (max-width: 1000px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .map {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .map {
+    width: 400px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 425px) {
+  .map {
+    width: 375px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 400px) {
+  .map {
+    width: 325px;
+    height: 450px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
