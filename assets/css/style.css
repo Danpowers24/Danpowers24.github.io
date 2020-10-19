@@ -543,6 +543,11 @@ section {
   padding: 2px 15px;
 }
 
+.portfolio-secondary {
+  max-height: 270px;
+  position: relative;
+}
+
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
