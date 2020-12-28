@@ -476,6 +476,14 @@ section {
   position: relative;
 }
 
+/* This section is for resume items that don't have another section directly below it, therefor they have less padding to remove empty space */
+.resume .resume-item-last {
+  padding: 0 0 0px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
