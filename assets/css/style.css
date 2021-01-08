@@ -81,10 +81,10 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: 35px auto 25px;
   object-fit: cover;
-  height: 200px;
-  width: 200px;
-  border-radius: 40px;
-  border: 8px solid #2c2f3f;
+  height: 150px;
+  width: 150px;
+  /* border-radius: 40px; */
+  /* border: 8px solid #2c2f3f; */
 }
 
 #header .profile h1 {
@@ -112,8 +112,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   transition: 0.3s;
 }
 
