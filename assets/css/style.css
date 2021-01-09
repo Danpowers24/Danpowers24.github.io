@@ -81,8 +81,8 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: 35px auto 25px;
   object-fit: cover;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   /* border-radius: 40px; */
   /* border: 8px solid #2c2f3f; */
 }
@@ -103,12 +103,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a {
-  font-size: 18px;
+  font-size: 22px;
   display: inline-block;
   background: #212431;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  padding: 13px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
@@ -619,20 +619,37 @@ section {
   right: 0;
   bottom: -60px;
   z-index: 3;
+  width: 100%;
   position: absolute;
   transition: all ease-in-out 0.3s;
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
+  display: flex;
+  bottom: 40px;
   color: #fff;
   font-size: 45px;
-  text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
   width: 50%;
+  padding: 11px 0px;
+  justify-content: center;
+
 }
+
+.portfolio .portfolio-wrap .portfolio-links a .icon-description {
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a .icon-description-small {
+  font-size: 20px;
+  /* padding-right: -80px; */
+}
+
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
