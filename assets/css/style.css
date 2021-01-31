@@ -408,6 +408,7 @@ section {
 .skills img {
   max-height: 90px !important;
   max-width: 90px !important;
+  padding-bottom: 5px;
 }
 
 .skills .progress {
