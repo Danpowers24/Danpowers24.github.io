@@ -81,8 +81,8 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: 35px auto 25px;
   object-fit: cover;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   /* border-radius: 40px; */
   /* border: 8px solid #2c2f3f; */
 }
