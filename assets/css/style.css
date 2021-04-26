@@ -673,6 +673,20 @@ section {
   bottom: 0;
 }
 
+@media (max-width: 550px) {
+  .portfolio .portfolio-wrap .portfolio-links a .icon-description {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+}
+
+@media (max-width: 380px) {
+  .portfolio .portfolio-wrap .portfolio-links a .icon-description {
+    display: none;
+  }
+}
+
 /*--------------------------------------------------------------
 # Fun Facts
 --------------------------------------------------------------*/
