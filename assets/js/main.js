@@ -123,10 +123,28 @@
       layoutMode: 'fitRows'
     });
     
-    $('.portoflio-wrap').hover(
-      function() { $(this).children("portfolio-description").show()},
-      function() { $(this).children("portfolio-description").hide()}
-    )
+  //   jQuery(document).ready(function() {
+  //     jQuery('.product-images').hover(function() {
+  //         jQuery(this).find('img:first').hide()
+  //     }, function() {
+  //         jQuery(this).find('img:first').show();
+  //     });
+  // });
+
+  jQuery(document).ready(function() {
+    jQuery('.portfolio-item').hover(function() {
+      $(".portfolio-hero").removeClass('.hidden');
+
+        jQuery(this).find('.portfolio-hero').fadeIn(200)
+    }, function() {
+        jQuery(this).find('.portfolio-hero').fadeOut(200);
+    });
+});
+
+    // $('.portoflio-item').hover(
+    //   function() { $(this).children(".portfolio-description").show()},
+    //   function() { $(this).children(".portfolio-description").hide()},
+    //   )
 
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
