@@ -141,10 +141,26 @@
     });
 });
 
-    // $('.portoflio-item').hover(
-    //   function() { $(this).children(".portfolio-description").show()},
-    //   function() { $(this).children(".portfolio-description").hide()},
-    //   )
+jQuery(document).ready(function() {
+  jQuery('#footer').hover(function() {
+    $("#copyright-container").removeClass('.hidden');
+
+      jQuery(this).find('#copyright-container').fadeIn(200)
+  }, function() {
+      jQuery(this).find('#copyright-container').fadeOut(200);
+  });
+});
+
+// ('#footer').hover(
+//   function () {
+//     $("#copyright-container").removeClass('.hidden');
+
+//     $(this).show();
+//   }, 
+//   function () {
+//     $(this).hide();
+//   }
+// );
 
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
